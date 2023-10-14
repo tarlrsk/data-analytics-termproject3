@@ -9,5 +9,5 @@ Using data from MongoDB sample: sample_supplies
 Use the package manager [mongodb-database-tools](https://www.mongodb.com/docs/database-tools/installation/installation/) to export data.
 
 ```bash
-mongoexport --uri="mongodb+srv://<username>:<password>@<cluster>/sample_supplies" --collection="sales" --out=sales.json
+mongoexport --uri="mongodb+srv://<username>:<password>@<cluster>/sample_supplies" --collection="sales" --jsonArray --out=sales.json
 ```
